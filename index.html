@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./imagen/Logo.png" alt="logo alura">
+        <strong class="strong"><h1 class="Titulo">Encriptador de Texto </h1></strong>
+    </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="7" 
+                placeholder="Ingrese aqui el Texto que desea encriptar..."></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section >
+                <div>
+                    <textarea class="mensaje" cols="20" rows="10"></textarea>
+                    <button class="btn-copiar" onclick="btnCopiar()">copiar</button>
+                </div>
+            </section>
+        </main>
+            <footer class="footer">
+            <p> Desarrollado por: DavidShadow88Dev </p><a class="github-logo" href="https://github.com/DavidShadow88">
+                <img src="./imagen/github.png" alt="github logo"></a>
+        </footer> 
+        <script src="script.js"></script>
+    </body>
+</html> 
